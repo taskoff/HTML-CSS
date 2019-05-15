@@ -7,3 +7,15 @@ h1 {
     color: rgb(25,25,255);
     border-bottom: 1px solid;
 }
+
+section {
+    border-bottom: 1px solid 
+}
+
+.equipment ul li {
+    list-style-type: circle;
+}
+
+footer p {
+    color: red;
+}
