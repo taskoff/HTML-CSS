@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="typography.css">
+    <title>Forms</title>
+</head>
+<body>
+    <article>
+        <header>
+            <h1>Welcome to registration page</h1>
+        </header>
+    <form action="#" method="GET">
+        <fieldset>
+            <legend>Customer Details</legend>
+                <p>
+                    <label for="firstname">First Name</label>
+                    <input type="text" name="firstname" placeholder="George" autofocus>
+                </p>
+                <p>
+                    <label for="lastname">Last Name</label>
+                    <input type="text" name="firstname" placeholder="Devis">
+                </p>
+                <p>
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="male">
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="female">
+                    <label for="other">Other</label>
+                    <input type="radio" name="gender" id="other">
+                </p>
+                <p>
+                    Preferred contact method:
+                    <label for="email">Email</label>
+                    <input type="radio" name="conect" id="email">
+                    <label for="phone">Phone</label>
+                    <input type="radio" name="conect" id="phone">
+                </p>
+                <p>
+                    <label for="email">Email</label>
+                    <input type="email" name="Email" id="email" placeholder="your@email.com">
+                </p>
+                <p>
+                    <label for="phone-number">Phone</label>
+                    <input type="phone" name="Phone" id="phone-number" placeholder="+359885236225">
+                </p>
+                <p>
+                    <label for="town">Town</label>
+                    <select name="Town" id="town">
+                        <option value="Varna">Varna</option>
+                        <option value="Plovdiv">Plovdiv</option>
+                        <option value="Burgas">Burgas</option>
+                        <option value="Sofia">Sofia</option>
+                        <option value="Pleven">Pleven</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="age">Age</label>
+                    <input type="number" name="Age" id="age" min="18" max="70">
+                </p>
+                <p>
+                    <label for="programing-language">Programming language</label>
+                    <input list="Programming-language" id="programing-language" name="Programminglanguage" />
+                    <datalist id="Programming-language">
+                            <option value="Java">Java</option>
+                            <option value="PHP">PHP</option>
+                            <option value="C#">C#</option>
+                            <option value="JavaScript">JavaScript</option>
+                            <option value="Python">Python</option>
+                            <option value="Ruby">Ruby</option>
+                            <option value="Other">Other</option>
+                    </datalist>
+                </p>
+                <p>
+                    <textarea name="more-info" id="moreinfo" cols="20" rows="5" placeholder="More information..."></textarea>
+                </p>
+                <p>
+                    <input type="checkbox" name="agree" id="Agree" value="checked">
+                    <label for="Agree">I agree the Terms and Conditions</label>
+                </p>
+                <p>
+                        <input type="submit" value="Send">
+                        <input type="reset" value="reset">
+                </p>
+        </fieldset>
+    </form>
+</article>
+  
+</body>
+</html>
