@@ -1,0 +1,31 @@
+html {
+    margin: 0 20%;
+}
+
+body {
+    background: rgba(179,255,255,0.3);
+    
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+table, th, td {
+    border: 2px solid;
+    border-collapse: collapse;
+    padding: 1 1 ;
+}
+
+table tr th {
+    text-align: left;
+    background: rgb(156,222,222);
+    padding: 0.5%;
+}
+
+table tr td:nth-child(4) {
+    background: rgba(156,222,222,0.4);
+}
+
+
