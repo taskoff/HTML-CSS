@@ -1,0 +1,35 @@
+body {
+    background: #FFFFB3;
+}
+
+.push {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 1.5em 2em;
+    text-decoration: none;
+    margin-right: 2em;
+    background: transparent;
+    color: black;
+    line-height: 1.5;
+    width: 10rem;
+    border-radius: 3em;text-align: center;
+    cursor: pointer;
+    background: #FFBF00;
+    
+}
+
+.button {
+    line-height: 0.7;
+    width: 6rem;
+
+}
+
+.push:hover {
+    background: #94CEFA;
+    color: white;
+}
+
+.hovered {
+    background: #94CEFA;
+    color: white;
+}
