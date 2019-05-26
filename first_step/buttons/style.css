@@ -4,17 +4,20 @@ body {
 
 .push {
     display: inline-block;
-    border: 1px solid black;
-    padding: 1.5em 2em;
+    border: 1px solid #FFBF00;
+    padding: 1.5em 4em;
+    font-family: 'Libre Baskerville', serif;
+    /* font-size: 1em; */
     text-decoration: none;
     margin-right: 2em;
     background: transparent;
     color: black;
     line-height: 1.5;
-    width: 10rem;
+    width: 18em;
     border-radius: 3em;text-align: center;
     cursor: pointer;
     background: #FFBF00;
+    font-weight: 900;
     
 }
 
@@ -24,12 +27,27 @@ body {
 
 }
 
-.push:hover {
-    background: #94CEFA;
+
+
+.first-row:hover {
+    background: #72A0C1;
     color: white;
 }
 
 .hovered {
-    background: #94CEFA;
+    background: #72A0C1;
     color: white;
+}
+.one {
+    background: #84DE02;
+    
+}
+.button.push.first-row:hover {
+    background: #84DE02;
+}
+
+.fas {
+    size: 7em;
+    color: white;
+    margin-right: 1em;
 }
