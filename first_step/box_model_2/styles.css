@@ -1,0 +1,113 @@
+@import url("typography.css");
+/* reset.css */
+* {
+	padding: 0;
+	margin: 0;
+} 
+
+body {
+   padding: 2rem;
+}
+.site {
+    max-width: 80rem;
+    margin: 0 auto;
+}
+header.site-header h1 {
+    margin-bottom: 2rem;
+}
+.site-header {
+    border-bottom: 2px solid #333;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+}
+.site-header a {
+    text-decoration: none;
+    color: black;
+}
+.site-footer {
+    border-top: 2px solid #333;
+    margin-top: 1rem;
+    padding-top: 2rem;
+}
+.site-header nav {
+
+}
+.site-header nav ul {
+    
+    padding: 0;
+}
+.site-header nav ul li {
+    display: inline-block;
+   }
+.site-header nav a {
+    display: block;
+    padding: 0.5rem 1rem;
+    border: 1px solid #333;
+     
+}
+.site-header nav a:focus,
+.site-header nav a:hover {
+    background: black;
+    color: white;
+}
+
+p.meta {
+    padding: 1rem 0;
+}
+article footer p {
+    padding: 1rem 0;
+}
+article.post {
+    margin-bottom: 3rem;
+}
+
+/*
+*layout
+*/
+
+.site-content {
+/* border: 2px solid black; */
+}
+.main-sidebar,
+.main-content {
+    display: inline-block;
+    
+}
+.main-content {
+    /* border: 2px solid red; */
+    width: 70%;
+    padding-right: 1rem;
+}
+.main-sidebar {
+    /* border: 2px solid green; */
+    width: 26%;
+    vertical-align: top;
+    padding-left: 1rem;
+}
+.main-sidebar ul {
+    padding: 1rem 0 1rem 2rem;
+}
+.main-sidebar > section {
+    padding-bottom: 1.5rem;
+}
+article.post img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+article.post section.image {
+    margin-bottom: 2rem;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.5);
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+article.post section.image img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+/* article.post section.image:before {
+    display: block;
+    content: "kbhvlvlvpvv";
+    padding-top: 50%;
+} */
