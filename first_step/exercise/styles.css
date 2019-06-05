@@ -1,0 +1,42 @@
+@import url('reset.css');
+@import url('typography.css');
+
+body {
+   padding: 3rem; 
+}
+.main-header {
+    border-bottom: 2px solid black;
+}
+.main-footer {
+    border-top: 2px solid black;
+}
+header nav ul {
+   padding-bottom: 1.5rem;
+   padding-left: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul a {
+    color: black;
+    text-decoration: none;
+    border: 1px solid gray;
+    padding: 0.5rem 1.5rem;
+}
+.site {
+    max-width: 80rem;
+    margin: auto;
+}
+.post, .right-side {
+    display: inline-block;
+}
+.post {
+    width: 85%;
+}
+.right-side {
+    width: 12%;
+    vertical-align: top;
+    
+}
