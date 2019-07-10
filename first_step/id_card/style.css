@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+html {
+    box-sizing: border-box;
+    font: 16px/1.5 ariel;
+}
+.id-card {
+    max-width: 800px;
+    height: 450px;
+    margin: 2rem auto;
+    background-image: linear-gradient(to right, #5e8136, #007f5c, #007780, #006991, #455787);
+    position: relative;
+
+}
+.colored {
+    width: 100%;
+}
+
+.colored p {
+    padding: 2px;
+    width: 20%;
+    float: left;
+
+}
+.top {
+    padding-top: 2rem;
+}
+.yelow {
+    background: yellow;
+}
+.yelow-green {
+    background: yellowgreen;
+}
+.green {
+    background: green;
+}
+.blue {
+    background: blue;
+}
+.blue-violet {
+    background: blueviolet;
+}
+.person-info {
+    padding: 3rem;
+    /* border: 1px solid black; */
+}
+.person-info:after {
+    display: block;
+    content: '';
+   clear: both;
+}
+.image {
+    padding-left: 2rem;
+    
+    
+}
+.image img {
+    max-width: 20%;
+    height: auto;
+    float: left;
+    transform: rotate(-15deg);
+}
+.person-name {
+    float: right;
+    color: white;
+    text-align: right;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+.name {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: yellow;
+}
+.bottom {
+   position: absolute;
+   left:0; bottom: 0;
+}
+
+.center p{
+    padding: 1.5rem;
+    margin-top: 0.5rem;
+    
+}
+.yelow{
+    position: relative;
+}
+.yelow img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+}
